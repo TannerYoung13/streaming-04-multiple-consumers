@@ -19,7 +19,7 @@ def offer_rabbitmq_admin_site():
     ans = input("Would you like to monitor RabbitMQ queues? y or n ")
     print()
     if ans.lower() == "y":
-        webbrowser.open_new("http://localhost:15672/#/queues")
+        webbrowser.open_new("https://www.rabbitmq.com/tutorials/tutorial-two-python")
         print()
 
 # call the function defined above
